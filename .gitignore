@@ -2,3 +2,5 @@ db.sqlite3
 __pycache__
 *.swp
 *.pyc
+taskbuster/.coverage
+taskbuster/db.sqlite3

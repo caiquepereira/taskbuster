@@ -25,3 +25,11 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.assertEqual(h1.value_of_css_property("color"),
                          "rgba(200, 50, 255, 1)")
 
+    def test_home_files(self):
+        """ Makes sure both robots.txt and humans.txt exist """
+        self.browser.get(self.live_server_url + "/robots.txt")
+        self.assertNotIn("not Found", self.browser.title)
+        self.browser.get(self.live_server_url + "/humans.txt")
+        self.assertNotIn("not Found", self.browser.title)
+
+
