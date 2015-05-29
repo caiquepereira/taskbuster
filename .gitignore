@@ -1,6 +1,8 @@
 db.sqlite3
+*.sqlite*
 __pycache__
 *.swp
 *.pyc
-taskbuster/.coverage
+.coverage
 taskbuster/db.sqlite3
+htmlcov
