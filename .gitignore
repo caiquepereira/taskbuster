@@ -6,3 +6,4 @@ __pycache__
 .coverage
 taskbuster/db.sqlite3
 htmlcov
+taskbuster/fixtures

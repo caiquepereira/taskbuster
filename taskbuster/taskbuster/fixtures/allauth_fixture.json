@@ -1,0 +1,192 @@
+[
+{
+  "pk": 1,
+  "fields": {
+    "is_staff": true,
+    "is_active": true,
+    "password": "pbkdf2_sha256$20000$XABnNEEGFNJ4$j8EFIkK2xIYJBwPsCGnNisUMRLvDA3xLaYG4oo58fII=",
+    "date_joined": "2015-06-01T15:34:28.188Z",
+    "last_name": "",
+    "email": "none@e.mail",
+    "first_name": "",
+    "groups": [],
+    "username": "adminadmin",
+    "is_superuser": true,
+    "last_login": "2015-06-01T15:34:53.590Z",
+    "user_permissions": []
+  },
+  "model": "auth.user"
+},
+{
+  "pk": "agj7b3dlg37xf58ophlfpfoaiwv0kaqb",
+  "fields": {
+    "expire_date": "2015-06-15T15:34:53.594Z",
+    "session_data": "YjQ2MTBiNWNmMDJlYjBhZDUwYWM3ZjE3YmExODAxMTNiOGRkNDE1ZTp7Il9hdXRoX3VzZXJfaGFzaCI6IjY5NzE4MzM0OWFiMDE2NDViZDc3NGU5M2UzMWJlZTAzOTBhYmYyYTgiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="
+  },
+  "model": "sessions.session"
+},
+{
+  "pk": 3,
+  "fields": {
+    "domain": "localhost:8081",
+    "name": "localhost:8081"
+  },
+  "model": "sites.site"
+},
+{
+  "pk": 1,
+  "fields": {
+    "key": "",
+    "provider": "google",
+    "sites": [],
+    "client_id": "412575948326-foa6hpoljcmb3fdqdmqlpr5b9s7fcg6e.apps.googleusercontent.com",
+    "secret": "s3yNhnvJvmzqhDOJdWXqvDd1",
+    "name": "Google"
+  },
+  "model": "socialaccount.socialapp"
+},
+{
+  "pk": 1,
+  "fields": {
+    "action_time": "2015-06-01T15:35:34.729Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "example.com",
+    "object_id": "1",
+    "change_message": "",
+    "action_flag": 3,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 2,
+  "fields": {
+    "action_time": "2015-06-01T15:36:17.002Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "example.com",
+    "object_id": "2",
+    "change_message": "",
+    "action_flag": 1,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 3,
+  "fields": {
+    "action_time": "2015-06-01T15:36:19.100Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "example.com",
+    "object_id": "2",
+    "change_message": "No fields changed.",
+    "action_flag": 2,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 4,
+  "fields": {
+    "action_time": "2015-06-01T15:40:11.601Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "example.com",
+    "object_id": "2",
+    "change_message": "",
+    "action_flag": 3,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 5,
+  "fields": {
+    "action_time": "2015-06-01T15:40:17.698Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "localhost:8081",
+    "object_id": "3",
+    "change_message": "",
+    "action_flag": 1,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 6,
+  "fields": {
+    "action_time": "2015-06-01T15:40:29.947Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "127.0.0.1",
+    "object_id": "3",
+    "change_message": "Changed domain and name.",
+    "action_flag": 2,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 7,
+  "fields": {
+    "action_time": "2015-06-01T15:44:08.318Z",
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_repr": "localhost:8081",
+    "object_id": "3",
+    "change_message": "Changed domain and name.",
+    "action_flag": 2,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+},
+{
+  "pk": 8,
+  "fields": {
+    "action_time": "2015-06-01T15:45:38.905Z",
+    "content_type": [
+      "socialaccount",
+      "socialapp"
+    ],
+    "object_repr": "Google",
+    "object_id": "1",
+    "change_message": "",
+    "action_flag": 1,
+    "user": [
+      "adminadmin"
+    ]
+  },
+  "model": "admin.logentry"
+}
+]
